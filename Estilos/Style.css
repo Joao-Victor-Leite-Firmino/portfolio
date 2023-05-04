@@ -72,6 +72,10 @@ body {
     width: 50%;
 }
 
+.imagem__email {
+    width: 10%;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
