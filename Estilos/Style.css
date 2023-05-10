@@ -39,6 +39,10 @@ body {
     text-decoration: none;
 }
 
+.cabecalho__menu__link:hover {
+    color: wheat;
+}
+
 .titulo-destaque { /*O ponto "." diz ao css que é uma classe*/
     color: var(--cor-terciaria);
 }
