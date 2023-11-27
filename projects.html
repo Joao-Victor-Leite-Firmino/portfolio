@@ -7,6 +7,7 @@
     <title>Projetos</title>
     <link rel="stylesheet" href="./Estilos/Style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu"> <!--Os itens da navegação da página ficam inseridos aqui-->
@@ -17,26 +18,61 @@
     </header>
 
     <main>
+            
             <section class="titulo__projetos">
                     <h1 class="apresentacao__conteudo__titulo">Projetos</h1>
             </section>
 
-        <section class="projetos">
-            <div class="projetos__alura_mais">
-            <img class="projetos__imagem" src="Assets/Aluramais.png">
-            <h3 class="projetos__titulo">Alura+</h3> 
-                <div>
-                    <img class="projetos__linguagens__html" src="Assets/HTML5.png">
-                    <img class="projetos__linguagens__css" src="Assets/css.png">
+            <section class="projetos">
+                <div class="projetos__listados">
+                <a href="https://global-solution-segundo-semestre.vercel.app"><img class="projetos__imagem" src="Assets/gs.png"></a>
+                <h3 class="projetos__titulo">Portal NotreDame Intermédica</h3> 
+                    <div>
+                        <img class="projetos__linguagens__js" src="Assets/javascript.png">
+                        <img class="projetos__linguagens__next" src="Assets/Nextjs-logo.svg.png">
+                    </div>
+                <a class="projetos__botao" href="https://global-solution-segundo-semestre.vercel.app" target="_blank"> 
+                    Acessar
+                </a> 
                 </div>
-            <a class="projetos__botao" href="https://aluramais.vercel.app" target="_blank"> 
-                Acessar
-            </a> 
-            </div>
+
+                <div class="projetos__listados">
+                    <a href="https://challenge-porto-two.vercel.app/Home"><img class="projetos__imagem" src="Assets/Projeto Porto Seguro.png"></a>
+                    <h3 class="projetos__titulo">Sistema de escolha de modal Porto Seguro</h3> 
+                        <div>
+                            <img class="projetos__linguagens__js" src="Assets/javascript.png">
+                            <img class="projetos__linguagens__next" src="Assets/Nextjs-logo.svg.png">
+                        </div>
+                    <a class="projetos__botao" href="https://challenge-porto-two.vercel.app/Home" target="_blank"> 
+                        Acessar
+                    </a> 
+                    </div>
+            </section>
+
+        <section class="projetos">
+            <div class="projetos__listados">
+                <a href="https://aluramais.vercel.app"><img class="projetos__imagem" src="Assets/Aluramais.png"></a>
+                <h3 class="projetos__titulo">Alura+</h3> 
+                    <div>
+                        <img class="projetos__linguagens__html" src="Assets/HTML5.png">
+                        <img class="projetos__linguagens__css" src="Assets/css.png">
+                    </div>
+                <a class="projetos__botao" href="https://aluramais.vercel.app" target="_blank"> 
+                    Acessar
+                </a> 
+                </div>
         </section>
+
+        <div class="veja_mais">
+        <h2 class="apresentacao__conteudo__titulo">Veja todos os meus projetos!</h2>
+        <a class="botao__veja_mais" href="https://github.com/Joao-Victor-Leite-Firmino"> <!--Tag ancôra <a> serve para criar botões com links externos-->
+            <img src="./Assets/github.png">
+            GitHub
+        </a> 
+        </div>
     </main>
 
-    <footer class="rodape">
+    <footer class="rodape rodape__footer">
         <p>Desenvolvido por João Victor Leite Firmino.</p>
     </footer>
 </body>

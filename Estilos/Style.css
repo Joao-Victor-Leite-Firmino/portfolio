@@ -124,37 +124,18 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1284px) {
-    .cabecalho {
-        padding: 10%;
-    }
-
-    .cabecalho__menu {
-        justify-content: center;
-    }
-    
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-
-    .apresentacao__conteudo {
-        width: auto;
-    }
-}
-
 .titulo__projetos {
     margin: 5% 0 0 15%;
 }
 
 .projetos {
     text-align: justify;
-    margin: 5% 0 0 10%;
+    margin: 5% 0 0 0%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.projetos__alura_mais {
+.projetos__listados {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,6 +163,14 @@ body {
     width: 3.54%;
 }
 
+.projetos__linguagens__js {
+    width: 5%;
+}
+
+.projetos__linguagens__next {
+    width: 10%;
+}
+
 .projetos__botao {
     display: flex;
     justify-content: center;
@@ -197,3 +186,78 @@ body {
     border: 2px solid var(--cor-terciaria);
     margin: 2% 0 15% 0;
 }
+
+.veja_mais {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.botao__veja_mais {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+    border-radius: 8px; /*Arredondamento da borda*/
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0; /*Quando quer mudar o tamanho do padding em apenas uma direção (vertical ou horizontal) colocar 2 valores, sendo o primeiro vertical e o segundo horizontal*/
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-montserrat);
+    border: 2px solid var(--cor-terciaria);
+    margin: 20px 0 50px 0;
+}
+
+.botao__veja_mais:hover {
+    background-color: var(--cor-hover);
+}
+
+@media (max-width: 1284px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .titulo__projetos {
+        margin: 0;
+        text-align: center;
+    }
+
+    .projetos__listados {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .projetos__imagem {
+        width: 100%;
+        margin-bottom: 1.5%;
+    }
+
+    .projetos__titulo {
+        font-size: 20px;
+    }
+
+    .projetos__botao {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .rodape__footer {
+        margin-top: 60px;
+    }
+}
+
