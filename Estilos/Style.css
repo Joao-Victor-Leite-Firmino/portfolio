@@ -232,6 +232,15 @@ body {
         width: auto;
     }
 
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
     .titulo__projetos {
         margin: 0;
         text-align: center;
